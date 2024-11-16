@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 90PX;
+    background-color: #2f2f2f;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20PX;
+    color: white;
+    font-size: 15px;
+
+}
+    nav.titulo{
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 35px;
+        
+    }
+
+
+
+div.Top{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 400px;
+    
+
+    
+}
+    div.txt h4{
+    font-size:large;
+    }
+    div.txt{
+        width: 40%;   
+       margin-left: 10px;
+       font-size:14px;
+    }
+    div.txt a {
+        
+        margin-top: 55px;
+        display: flex;
+        padding-left: 50px;
+        align-items: flex-end;
+        text-decoration: none;
+        
+    }
+    div.txt a button {
+        background-color: #f8973a;
+        color: #f1f1f1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3px;
+        font-size: 15px;
+        border-radius: 6px;
+        width: 110px;
+        height: 20px;
+    }
+    div.img #food{
+        width: 260px;
+        height: 310px;
+        
+    }
+
+div.Centro{
+    margin-top: 50px;
+    padding: 20px 20px;
+}
+
+    div.Centro>h4{
+        font-size:16px;
+        padding-left: 100px;
+    }
+
+    div.noticias{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+            div.noticias img{
+                width: 320px;
+                height: 350px;
+                transform: scale(0.9,0.9);   
+                
+            }
+
+            div.text_img{
+                display: flex;
+                justify-content: center;
+                gap: 99px;
+                
+                
+            }
+                    div.text_img div{
+                        
+                        display: flex;
+                        flex-direction: column;
+                        
+                        font-size: 13px;
+                        width: 300px;
+                        height: 140px;
+
+                    }
+                            div.text_img .t1{
+                                margin-left: 10px;
+                            }
+                            div.text_img div>h4{
+                               font-size: 15px; 
+                            }
+
+
+                            
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2f2f2f;
+    height: 360px;
+}
+        footer> div{
+            padding-top: 60px;
+        }
+        footer > .itens1{
+            margin-left: 10px;
+        }
+
+            footer > .itens1 #sub_titulo{
+                color: white;
+                font-size: 14px;
+                margin-bottom: 20px;
+                
+
+            }
+                footer > .itens1 .cont1{
+                    display: flex;
+                    gap: 10px;
+                    margin-bottom: 15px;
+                    
+                }
+                    footer> .itens1 .container{
+                            transform: scale(0.9,0.9);
+
+                    }
+                        footer > .itens1 .container #fig_desc {
+                                width: 60px;
+                                height: 60px;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: #f1f1f1;
+                                border-radius: 7px;
+                                
+
+                            }
+                                    footer > .itens1 .container #fig_desc div{
+                                        transform: scale(0.8,0.8);
+                                    }
+                                    footer > .itens1 .container #fig_desc>#num{
+                                        font-size: 25px;
+                                        font-weight:bold;
+                                    }
+
+                            footer > .itens1 .container #texto_desc{
+                                color: #f1f1f1;
+                                gap: 10px;
+                                display: flex;
+                                justify-content: center;
+                                font-size: 12px;
+                                flex-direction: column;
+                            }
+        footer> .itens2{
+            color: #f1f1f1;
+            width: 370px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+                footer> .itens2>h4{
+                    font-size: 14px;
+                }
+
+                footer> .itens2>p{
+                    font-size: 12px;
+                }
+
+
+        footer> .itens3{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            color: #f1f1f1;
+            font-size: 12px;
+        }
+
+                footer> .itens3> .lista ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+
+                footer> .itens3> .lista img {
+                    width: 30px;
+                }
+
+                footer> .itens3> .lista li {
+                    display: flex;
+                    gap: 5px;
+                }
+                        footer> .itens3> .lista li p {
+                            display: flex;
+                            align-items: center;
+                        }
+        #ultimaD{
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 11px;
+
+        }               
+
+
+        
+
